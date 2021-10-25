@@ -5,7 +5,7 @@ const promisifiedReadDir = promisify(readdir)
 const promisifiedReadFile = promisify(readFile)
 const promisifiedWriteFile = promisify(fs.writeFile)
 const { writeDb, writeInvalid } = require('./utils/write')
-// const validator = require('./validation/validate')
+
 const yup = require('yup')
 let dbArray = []
 let noValid = []
